@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/rcoedo/.anyenv/envs/nodenv/versions/12.4.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add grpc-node
+
+PATH: 
+  /Users/rcoedo/.anyenv/envs/nodenv/versions/12.4.0/bin:/Users/rcoedo/.anyenv/envs/nodenv/libexec:/Users/rcoedo/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/rcoedo/.anyenv/envs/nodenv/plugins/nodenv-default-packages/bin:/Users/rcoedo/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/rcoedo/.poetry/bin:/Users/rcoedo/.cargo/bin:/Users/rcoedo/Workspace/bin:/Volumes/SD/android-sdk/platform-tools:/Users/rcoedo/.anyenv/envs/rbenv/shims:/Users/rcoedo/.anyenv/envs/pyenv/shims:/Users/rcoedo/.anyenv/envs/nodenv/shims:/Users/rcoedo/.anyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/rcoedo/.poetry/bin:/Users/rcoedo/.cargo/bin:/Users/rcoedo/Workspace/bin:/Volumes/SD/android-sdk/platform-tools:/Users/rcoedo/.anyenv/envs/rbenv/shims:/Users/rcoedo/.anyenv/envs/pyenv/shims:/Users/rcoedo/.anyenv/envs/nodenv/shims:/Users/rcoedo/.anyenv/bin:/Users/rcoedo/.anyenv/envs/nodenv/bin:/Users/rcoedo/.anyenv/envs/pyenv/bin:/Users/rcoedo/.anyenv/envs/rbenv/bin:/Users/rcoedo/.anyenv/envs/nodenv/bin:/Users/rcoedo/.anyenv/envs/pyenv/bin:/Users/rcoedo/.anyenv/envs/rbenv/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/grpc-node: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:66830:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:140464:22)
+      at Request.emit (events.js:200:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141436:10)
+      at Request.emit (events.js:200:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:288:20)
+      at IncomingMessage.emit (events.js:205:15)
+      at endReadableNT (_stream_readable.js:1154:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:9)
+
+npm manifest: 
+  {
+    "name": "grpc-node-greeter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
